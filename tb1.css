@@ -1,0 +1,52 @@
+#main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+}
+#img-div{
+	width: 100%;
+	background-color: #fff;
+} 
+#image {
+  max-width: 100%;
+  border: 10px solid ##9e0000;
+  border-radius: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#img-div {
+  text-align: center;
+  display: block;
+  filter: grayscale(100%);
+  width: 100%;
+}
+
+img {
+  padding-top: 10px;
+  height: auto;
+  max-width: 330px;
+  **margin-left: auto;
+  margin-right: auto;
+  display: block;**
+}
+
+#tribute-info{
+    width: 60%;
+    margin: 0 auto;
+}
+
+@media(max-width: 330px)
+{
+    #tribute-info{
+        width: 100%;
+    }
+    #tribute-info li{
+        padding: 10px;
+    }
+    #image{
+        width: 90%;
+        height: auto;
+    }
+}

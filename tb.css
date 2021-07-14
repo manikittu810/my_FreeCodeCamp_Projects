@@ -1,0 +1,118 @@
+
+html {
+  background-color: rgba(0, 0, 0, 0.95); 
+   color: rgba(200, 200, 200, 0.5);
+  font-size: 10px;
+  font-family: courier;
+}
+
+body {
+  font-size: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 8rem;
+  text-align: center;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 2.7rem;
+  margin: 0px;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+@media (max-width: 460px) {
+  #img-div {
+   
+    border-style: 5px solid ##9e0000;
+    border-radius: 1%;
+    margin: 0rem;
+  }
+}
+
+img {
+  
+  max-width: 100%;
+  display: block;
+  height: auto;
+
+}
+  
+#img-div {
+    max-width: 100%;
+    border-style: 10px solid ##9e0000;
+    border-radius: 2%;
+    margin: auto;
+}
+
+@media (max-width: 460px) {
+  #image {
+    display: block;
+    max-width: 100%;
+    
+    border-radius: 2%;
+    margin: auto;
+  }
+}
+
+#image {
+  max-width: 100%;
+ 
+  border-radius: 2%;
+  margin: auto;
+}
+#img-caption {
+  margin: 15px 0 5px 0;
+  font-style: italic;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    margin: 15px 0 5px 0;
+    font-style: italic;
+  }
+}
+
+#headline {
+  font-size: 3.5rem;
+  margin: 5rem;
+  text-align: center;
+}
+
+ul {
+  display: block;
+  border-radius: 10px;
+  background-color: rgba(200, 200, 200, 0.5);
+  color: rgba(0, 0, 0, 0.95);
+  font-size: 2rem;
+  max-width: 650px;
+  margin: auto;
+    text-align: left;
+  line-height: 30px;
+}
+
+li {
+  margin: 10px;
+}
+
+blockquote {
+  font-size: 3rem;
+  font-style: italic;
+  max-width: 800px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+    a:link {
+      color: rgba(100, 100, 100, 1);
+}
+
+
+      a:visited {
+      color: rgba(90, 90, 90, 1);
+}
